@@ -10,7 +10,7 @@
        }
   }
 ```
-Hashing & Hash Tables
+## Hashing & Hash Tables
 
 * Hashing is a technique used to map data (keys) to a fixed-size value using a hash function. This value is typically used as an index in an array for fast data access.
 A hash table is a data structure that stores key–value pairs and uses hashing to achieve average-case O(1) time complexity for insertion, deletion, and lookup.
@@ -26,3 +26,39 @@ Open Addressing (finding another empty slot using probing)
 Fast access compared to arrays and linked lists
 Performance depends on a good hash function
 Widely used in databases, caches, and dictionaries/maps
+
+## Sorting Algorithms
+
+* This repository provides implementations of Selection Sort, Bubble Sort, and Insertion Sort, focusing on clarity and fundamental algorithmic concepts.
+
+## Time & Space Complexity
+
+Selection Sort
+
+* Best Case: O(n²)
+
+* Average Case: O(n²)
+
+* Worst Case: O(n²)
+
+* Space Complexity: O(1)
+
+Bubble Sort
+
+* Best Case: O(n)
+
+* Average Case: O(n²)
+
+* Worst Case: O(n²)
+
+* Space Complexity: O(1)
+
+Insertion Sort
+
+* Best Case: O(n)
+
+* Average Case: O(n²)
+
+* Worst Case: O(n²)
+
+* Space Complexity: O(1)
