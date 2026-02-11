@@ -87,7 +87,7 @@ Quick Sort
 * Space Complexity: O(log n)
 
 Searching Algorithm
-* Linear Search
+* Linear Search :
   ```
   LinearSearch(A, n, key)
     for i ← 0 to n - 1 do
@@ -97,7 +97,7 @@ Searching Algorithm
     end for
     return -1             // element not found
   ```
-* Binary Search
+* Binary Search : 
   ```
   BinarySearch(array, target):
     low ← 0
