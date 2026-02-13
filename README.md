@@ -119,3 +119,5 @@ Searching Algorithm
   ```
 # Object Oriented Programming
 Object-Oriented Programming is a way of writing code that works like real life. Instead of thinking only in steps or instructions, you think in terms of things (objects) that have properties and can do actions.
+
+* Four pillars of Object Oriented Programming :
