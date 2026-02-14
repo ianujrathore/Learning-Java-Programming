@@ -121,3 +121,14 @@ Searching Algorithm
 Object-Oriented Programming is a way of writing code that works like real life. Instead of thinking only in steps or instructions, you think in terms of things (objects) that have properties and can do actions.
 
 * Four pillars of Object Oriented Programming :
+1. Encapsulation
+Encapsulation is the concept of wrapping data and methods together into a single unit (class) and restricting direct access to the data to protect it from unintended modification.
+
+2. Inheritance
+Inheritance is the mechanism by which one class acquires the properties and behaviors of another class, allowing code reuse and hierarchical relationships.
+
+3. Polymorphism
+Polymorphism means one interface or method can be used in different forms, allowing the same function name to perform different tasks depending on context.
+
+4. Abstraction
+Abstraction is the process of hiding implementation details and showing only essential features, so the user interacts with simple interfaces instead of complex logic.
