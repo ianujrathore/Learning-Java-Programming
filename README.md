@@ -181,6 +181,7 @@ public class Main {
     }
 }
 ```
+Types of inheritance 
 
 4. Polymorphism
 Polymorphism means one interface or method can be used in different forms, allowing the same function name to perform different tasks depending on context.
