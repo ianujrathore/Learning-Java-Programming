@@ -323,6 +323,37 @@ public class Example {
 }
 ```
 * LinkedHashMap
+```java
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class LinkedHashMapExample {
+    public static void main(String[] args) {
+        
+        // Create LinkedHashMap
+        LinkedHashMap<Integer, String> map = new LinkedHashMap<>();
+
+        // Add elements
+        map.put(1, "Apple");
+        map.put(3, "Banana");
+        map.put(2, "Mango");
+
+        // Print map (in insertion order)
+        System.out.println("LinkedHashMap: " + map);
+
+        // Access element
+        System.out.println("Value at key 2: " + map.get(2));
+
+        // Remove element
+        map.remove(3);
+
+        // Iterate through map
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+    }
+}
+```
 * TreeMap
 * HashTable
 * ConcurrentHashMap
