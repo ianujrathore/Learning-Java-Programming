@@ -355,6 +355,31 @@ public class LinkedHashMapExample {
 }
 ```
 * TreeMap
+```java
+import java.util.TreeMap;
+
+public class TreeMapBasic {
+    public static void main(String[] args) {
+
+        TreeMap<String, Integer> map = new TreeMap<>();
+
+        // Add
+        map.put("Banana", 2);
+        map.put("Apple", 5);
+        map.put("Mango", 1);
+
+        // Get
+        System.out.println(map.get("Apple"));   // 5
+
+        // Sorted output
+        System.out.println(map);                // {Apple=5, Banana=2, Mango=1}
+
+        // Remove
+        map.remove("Banana");
+        System.out.println(map);                // {Apple=5, Mango=1}
+    }
+}
+```
 * HashTable
 * ConcurrentHashMap
 
