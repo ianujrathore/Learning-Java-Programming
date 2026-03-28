@@ -381,5 +381,41 @@ public class TreeMapBasic {
 }
 ```
 * HashTable
+```java
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        // Create a HashMap
+        HashMap<String, Integer> map = new HashMap<>();
+
+        // Add key-value pairs
+        map.put("Apple", 100);
+        map.put("Banana", 50);
+        map.put("Mango", 80);
+
+        // Print the HashMap
+        System.out.println("HashMap: " + map);
+
+        // Access value using key
+        System.out.println("Price of Apple: " + map.get("Apple"));
+
+        // Check if key exists
+        System.out.println("Contains Banana? " + map.containsKey("Banana"));
+
+        // Remove an item
+        map.remove("Banana");
+
+        // Print after removal
+        System.out.println("After removing Banana: " + map);
+
+        // Loop through HashMap
+        for (String key : map.keySet()) {
+            System.out.println(key + " -> " + map.get(key));
+        }
+    }
+}
+```
 * ConcurrentHashMap
 
