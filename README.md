@@ -418,4 +418,30 @@ public class Main {
 }
 ```
 * ConcurrentHashMap
+```java
+import java.util.concurrent.ConcurrentHashMap;
+
+public class ConcurrentHashMapExample {
+    public static void main(String[] args) {
+        ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
+
+        // put values
+        map.put("Apple", 10);
+        map.put("Banana", 20);
+        map.put("Orange", 30);
+
+        // get values
+        System.out.println("Apple stock: " + map.get("Apple"));
+
+        // update value
+        map.put("Apple", 15);
+
+        // remove value
+        map.remove("Banana");
+
+        // print map
+        System.out.println("Final Map: " + map);
+    }
+}
+```
 
