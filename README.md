@@ -355,6 +355,93 @@ public class LinkedHashMapExample {
 }
 ```
 * TreeMap
+```java
+import java.util.TreeMap;
+
+public class TreeMapBasic {
+    public static void main(String[] args) {
+
+        TreeMap<String, Integer> map = new TreeMap<>();
+
+        // Add
+        map.put("Banana", 2);
+        map.put("Apple", 5);
+        map.put("Mango", 1);
+
+        // Get
+        System.out.println(map.get("Apple"));   // 5
+
+        // Sorted output
+        System.out.println(map);                // {Apple=5, Banana=2, Mango=1}
+
+        // Remove
+        map.remove("Banana");
+        System.out.println(map);                // {Apple=5, Mango=1}
+    }
+}
+```
 * HashTable
+```java
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        // Create a HashMap
+        HashMap<String, Integer> map = new HashMap<>();
+
+        // Add key-value pairs
+        map.put("Apple", 100);
+        map.put("Banana", 50);
+        map.put("Mango", 80);
+
+        // Print the HashMap
+        System.out.println("HashMap: " + map);
+
+        // Access value using key
+        System.out.println("Price of Apple: " + map.get("Apple"));
+
+        // Check if key exists
+        System.out.println("Contains Banana? " + map.containsKey("Banana"));
+
+        // Remove an item
+        map.remove("Banana");
+
+        // Print after removal
+        System.out.println("After removing Banana: " + map);
+
+        // Loop through HashMap
+        for (String key : map.keySet()) {
+            System.out.println(key + " -> " + map.get(key));
+        }
+    }
+}
+```
 * ConcurrentHashMap
+```java
+import java.util.concurrent.ConcurrentHashMap;
+
+public class ConcurrentHashMapExample {
+    public static void main(String[] args) {
+        ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
+
+        // put values
+        map.put("Apple", 10);
+        map.put("Banana", 20);
+        map.put("Orange", 30);
+
+        // get values
+        System.out.println("Apple stock: " + map.get("Apple"));
+
+        // update value
+        map.put("Apple", 15);
+
+        // remove value
+        map.remove("Banana");
+
+        // print map
+        System.out.println("Final Map: " + map);
+    }
+}
+```
 
