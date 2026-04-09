@@ -11,6 +11,9 @@ A collection of Java practice programs, algorithms, and core concept implementat
 - [Time & Space Complexity](#-time--space-complexity)
 - [Searching Algorithms](#-searching-algorithms)
 - [Object-Oriented Programming](#-object-oriented-programming)
+- [Types of Loops in Java](#-types-of-loops-in-java)
+- [Java Collection Framework](#-java-collection-frame-works)
+
 
 ---
 
