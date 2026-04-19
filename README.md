@@ -87,6 +87,8 @@ Implemented with focus on clarity + fundamentals:
 ---
 
 ## 🔎 Searching Algorithms
+* Time Complexity of Linear Search: O(n)
+* Time Complexity of Binary Search: O(log n)
 
 ### Linear Search
 ```
