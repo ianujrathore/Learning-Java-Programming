@@ -4,7 +4,7 @@ public class PeakOfMountainArray {
     public static void main(String[] args) {
         int [] nums = {2,4,6,8,6,4,2,1};
         int n = nums.length;
-        int low = 1, high = n-1;
+        int low = 1, high = n-2;
 
         while(low <= high){
             int mid = (low+high)/2;
