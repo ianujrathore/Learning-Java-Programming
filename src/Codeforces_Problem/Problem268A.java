@@ -1,8 +1,8 @@
 package Codeforces_Problem;
 
-import java.util.Scanner;
+import java.util.*;
 
-public class Problem268.java {
+public class Problem268A {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

@@ -2,7 +2,7 @@ package Codeforces_Problem;
 
 import java.util.*;
 
-public class Main {
+public class Problem281A {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
