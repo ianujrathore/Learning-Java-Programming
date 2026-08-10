@@ -1,26 +1,22 @@
 package Codeforces_Problem;
 
-import java.io.*;
 import java.util.*;
 
 public class Problem1896A {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int k = sc.nextInt();
 
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
-            a[i] = sc.nextInt();
-        }
+        int t = sc.nextInt();
 
-        int ans = 0;
-        for (int i = 0; i < n; i++) {
-            if (a[i] > k) {
-                ans++;
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int first = sc.nextInt();
+
+            for (int i = 1; i < n; i++) {
+                sc.nextInt();
             }
-        }
 
-        System.out.println(ans);
+            System.out.println(first == 1 ? "YES" : "NO");
+        }
     }
 }
