@@ -4,19 +4,6 @@ A collection of Java practice programs, algorithms, and core concept implementat
 
 ---
 
-## 📑 Table of Contents
-- [Basic Java Template](#-basic-java-template)
-- [Hashing & Hash Tables](#-hashing--hash-tables)
-- [Sorting Algorithms](#-sorting-algorithms)
-- [Time & Space Complexity](#-time--space-complexity)
-- [Searching Algorithms](#-searching-algorithms)
-- [Object-Oriented Programming](#-object-oriented-programming)
-- [Types of Loops in Java](#-types-of-loops-in-java)
-- [Java Collection Framework](#-java-collection-frame-works)
-
-
----
-
 ## 💻 Basic Java Template
 ```java
 class Main {
