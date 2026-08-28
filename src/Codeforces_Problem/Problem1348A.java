@@ -10,23 +10,22 @@ public class Problem1348A {
 
         while (t-- > 0) {
             int n = sc.nextInt();
-            long sum1 = 0;
-            long sum2 = 0;
 
-            for (int i = 1; i <= n; i++) {
-                long value = 1L << i;
+            long first = 1L << n;
 
-                if (i <= n / 2) {
-                    sum1 += value;
-                } else {
-                    sum2 += value;
-                }
+            for (int i = 1; i < n / 2; i++) {
+                first += 1L << i;
             }
 
-            sum1 += 1L << n;
-            sum2 -= 1L << n;
+            long second = 0;
 
-            System.out.println(Math.abs(sum1 - sum2));
+            for (int i = n / 2; i < n; i++) {
+                second += 1L << i;
+            }
+
+            System.out.println(first - second);
         }
+
+        sc.close();
     }
 }
