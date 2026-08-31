@@ -1,0 +1,51 @@
+package Codeforces_Problem;
+
+import java.util.*;
+
+public class Problem2060A {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int d = sc.nextInt();
+            int e = sc.nextInt();
+
+            int ans = 0;
+
+            int c = a + b;
+            int count = 0;
+
+            if (a + b == c) count++;
+            if (b + c == d) count++;
+            if (c + d == e) count++;
+
+            ans = Math.max(ans, count);
+
+            c = d - b;
+            count = 0;
+
+            if (a + b == c) count++;
+            if (b + c == d) count++;
+            if (c + d == e) count++;
+
+            ans = Math.max(ans, count);
+
+            c = e - d;
+            count = 0;
+
+            if (a + b == c) count++;
+            if (b + c == d) count++;
+            if (c + d == e) count++;
+
+            ans = Math.max(ans, count);
+
+            System.out.println(ans);
+        }
+
+        sc.close();
+    }
+}
