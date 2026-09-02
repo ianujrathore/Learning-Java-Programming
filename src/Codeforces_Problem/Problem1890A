@@ -1,0 +1,37 @@
+package Codeforces_Problem;
+
+import java.util.*;
+
+public class Problem1890A {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            Map<Integer, Integer> map = new HashMap<>();
+
+            for (int i = 0; i < n; i++) {
+                int x = sc.nextInt();
+                map.put(x, map.getOrDefault(x, 0) + 1);
+            }
+
+            if (map.size() > 2) {
+                System.out.println("No");
+            } else if (map.size() == 1) {
+                System.out.println("Yes");
+            } else {
+                int[] freq = new int[2];
+                int i = 0;
+
+                for (int value : map.values()) {
+                    freq[i++] = value;
+                }
+
+                System.out.println(Math.abs(freq[0] - freq[1]) <= 1 ? "Yes" : "No");
+            }
+        }
+
+        sc.close();
+    }
+}
