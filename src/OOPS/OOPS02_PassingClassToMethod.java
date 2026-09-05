@@ -1,6 +1,6 @@
 package OOPS;
 
-public class PassingClassToMethod {
+public class OOPS02_PassingClassToMethod {
     public static class Car {
         String name;
         int seats;

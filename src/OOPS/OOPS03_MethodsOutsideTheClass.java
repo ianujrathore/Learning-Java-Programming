@@ -1,6 +1,6 @@
 package OOPS;
 
-public class MethodsOutsideTheClass {
+public class OOPS03_MethodsOutsideTheClass {
     public static class SmartPhone {
         String name;
         String model;

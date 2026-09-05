@@ -1,6 +1,6 @@
 package OOPS;
 
-public class Polymorphism {
+public class OOPS05_Polymorphism {
     public static class Dog {
         void speak() {
             System.out.println("Bark");

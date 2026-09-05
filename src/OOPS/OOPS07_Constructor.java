@@ -1,7 +1,6 @@
 package OOPS;
 
-public class Constructor {
-
+public class OOPS07_Constructor {
     public static class Ben10 {
         String alienName;
         int power;

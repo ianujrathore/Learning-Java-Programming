@@ -18,9 +18,7 @@ class Employee {
     }
 }
 
-public class PrivateKeyword {
-
-
+public class OOPS06_PrivateKeyword {
     public static void main(String[] args) {
         Employee emp = new Employee();
         emp.name = "Spiderman";

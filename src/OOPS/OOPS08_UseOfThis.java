@@ -1,11 +1,11 @@
 package OOPS;
 
-public class UseOfThis {
+public class OOPS08_UseOfThis {
 
     String name;
     int age;
 
-    UseOfThis(String name, int age) {
+    OOPS08_UseOfThis(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -16,7 +16,7 @@ public class UseOfThis {
     }
 
     public static void main(String[] args) {
-        UseOfThis obj = new UseOfThis("Ben Tennyson", 10);
+        OOPS08_UseOfThis obj = new OOPS08_UseOfThis("Ben Tennyson", 10);
         obj.display();
     }
 }

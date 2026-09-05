@@ -1,6 +1,6 @@
 package OOPS;
 
-public class UserDefinedDataType {
+public class OOPS01_UserDefinedDataType {
     public static class Student {
         String name;
         int age;
