@@ -1,0 +1,30 @@
+package Codeforces_Problem;
+
+import java.util.*;
+
+public class Problem2036A {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int prev = sc.nextInt();
+            boolean ok = true;
+
+            for (int i = 1; i < n; i++) {
+                int curr = sc.nextInt();
+                int diff = Math.abs(curr - prev);
+
+                if (diff != 5 && diff != 7) {
+                    ok = false;
+                }
+
+                prev = curr;
+            }
+
+            System.out.println(ok ? "YES" : "NO");
+        }
+    }
+}
