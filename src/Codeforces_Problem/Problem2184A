@@ -11,15 +11,13 @@ public class Problem2184A {
         while (t-- > 0) {
             int n = sc.nextInt();
 
-            if (n % 3 == 0) {
-                System.out.println(0);
-            } else if (n % 3 == 1) {
+            if (n == 2) {
                 System.out.println(2);
+            } else if (n == 3) {
+                System.out.println(3);
             } else {
-                System.out.println(1);
+                System.out.println(n % 2);
             }
         }
-
-        sc.close();
     }
 }
