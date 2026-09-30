@@ -1,0 +1,30 @@
+package Codeforces_Problem;
+
+import java.util.*;
+
+public class Problem2269A {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            int k = sc.nextInt();
+
+            long ans = 0;
+            long money = 1;
+
+            for (int i = 1; i <= n; i++) {
+                money *= 2;
+
+                if (i > n - k) {
+                    ans += money;
+                    money = 1;
+                }
+            }
+
+            System.out.println(ans);
+        }
+    }
+}
