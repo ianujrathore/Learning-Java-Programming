@@ -1,0 +1,30 @@
+package Codeforces_Problem;
+
+import java.util.*;
+
+public class Problem1931A {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+
+        while (t-- > 0) {
+            int n = sc.nextInt();
+            String ans = "zzz";
+
+            for (int i = 1; i <= 26; i++) {
+                for (int j = 1; j <= 26; j++) {
+                    for (int k = 1; k <= 26; k++) {
+                        if (i + j + k == n) {
+                            String s = "" + (char)('a' + i - 1)
+                                         + (char)('a' + j - 1)
+                                         + (char)('a' + k - 1);
+                            ans = s.compareTo(ans) < 0 ? s : ans;
+                        }
+                    }
+                }
+            }
+
+            System.out.println(ans);
+        }
+    }
+}
